@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7eae813-439d-4a99-b03e-e2400d7e96d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ukgFBmPSzBa6ckpmFDxM7UsfoQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.EndToEnd.createAnOrder.executor": "Run",
+    "TestNG.EndToEnd.deleteAvailableBooks.executor": "Run",
+    "TestNG.EndToEnd.executor": "Run",
+    "TestNG.EndToEnd.getAuthorization.executor": "Run",
+    "TestNG.EndToEnd.getAvailableBooks.executor": "Run",
+    "TestNG.EndToEnd.getBookById.executor": "Run",
+    "TestNG.GithubTestCases.createAuthenticatedRepo.executor": "Run",
+    "TestNG.GithubTestCases.deleteAuthenticatedRepo.executor": "Run",
+    "TestNG.GithubTestCases.executor": "Run",
+    "TestNG.GithubTestCases.getAllAuthenticatedRepos.executor": "Run",
+    "TestNG.GithubTestCases.updateAuthenticatedRepo.executor": "Run",
+    "TestNG.TrelloTestCases.createBoard.executor": "Run",
+    "TestNG.TrelloTestCases.executor": "Run",
+    "TestNG.TrelloTestCases.updateBoard.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.GithubTestCases">
+    <configuration name="GithubTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrushUpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.testapis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.testapis" />
+      <option name="MAIN_CLASS_NAME" value="com.github.testapis.GithubTestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTestCases.createAuthenticatedRepo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrushUpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.testapis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.testapis" />
+      <option name="MAIN_CLASS_NAME" value="com.github.testapis.GithubTestCases" />
+      <option name="METHOD_NAME" value="createAuthenticatedRepo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTestCases.deleteAuthenticatedRepo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrushUpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.testapis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.testapis" />
+      <option name="MAIN_CLASS_NAME" value="com.github.testapis.GithubTestCases" />
+      <option name="METHOD_NAME" value="deleteAuthenticatedRepo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTestCases.getAllAuthenticatedRepos" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrushUpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.testapis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.testapis" />
+      <option name="MAIN_CLASS_NAME" value="com.github.testapis.GithubTestCases" />
+      <option name="METHOD_NAME" value="getAllAuthenticatedRepos" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTestCases.updateAuthenticatedRepo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrushUpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.testapis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.testapis" />
+      <option name="MAIN_CLASS_NAME" value="com.github.testapis.GithubTestCases" />
+      <option name="METHOD_NAME" value="updateAuthenticatedRepo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GithubTestCases" />
+        <item itemvalue="TestNG.GithubTestCases.deleteAuthenticatedRepo" />
+        <item itemvalue="TestNG.GithubTestCases.updateAuthenticatedRepo" />
+        <item itemvalue="TestNG.GithubTestCases.createAuthenticatedRepo" />
+        <item itemvalue="TestNG.GithubTestCases.getAllAuthenticatedRepos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7eae813-439d-4a99-b03e-e2400d7e96d2" name="Changes" comment="" />
+      <created>1742797900290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742797900290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java</url>
+          <line>36</line>
+          <properties class="com.github.testapis.GithubTestCases" method="getAllAuthenticatedRepos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java</url>
+          <line>66</line>
+          <properties class="com.github.testapis.GithubTestCases" method="deleteAuthenticatedRepo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
