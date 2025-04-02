@@ -20,12 +20,13 @@ import java.io.File;
 import java.io.IOException;
 
 
-
-
 import static io.restassured.RestAssured.given;
+
 @Listeners(ExtentReports.class)
 public class GithubTestCases extends BaseClass {
 
+    public static String repoName;
+    public static String ownerName;
 
     public RequestSpecification setUp() {
         RequestSpecBuilder spec = new RequestSpecBuilder();
@@ -38,7 +39,7 @@ public class GithubTestCases extends BaseClass {
     public void getAllAuthenticatedRepos() {
         Response resp = given(setUp()).log().headers()
                 .when().get("user/repos")
-                .then().log().all().extract().response();
+                .then().extract().response();
         Assert.assertEquals(Reusables.getStatusCode(resp), 200);
     }
 
@@ -49,25 +50,29 @@ public class GithubTestCases extends BaseClass {
                 .when().post("user/repos")
                 .then().log().all().extract().response();
         Assert.assertEquals(Reusables.getStatusCode(resp), 201);
-        Assert.assertEquals(Reusables.getAttributeValue(resp,"name"),"Hello-World");
+        repoName = Reusables.getAttributeValue(resp, "name");
+        ownerName = Reusables.getAttributeValue(resp, "owner.login");
+        System.out.println("Owner name of the account:---------------> " + ownerName);
+        System.out.println("Repo name created:-----------> " + repoName);
+        Assert.assertEquals(Reusables.getAttributeValue(resp, "name"), repoName);
     }
+
 
     @Test(priority = 2)
     public void updateAuthenticatedRepo() {
-        File requestBody= new File("./src/main/resources/updateRepo.json");
+        File requestBody = new File("./src/main/resources/updateRepo.json");
 
         Response resp = given(setUp()).log().all().body(requestBody)
-                .when().patch("repos/Jayanth-H-R/Hello-World")
+                .when().patch("repos/" + ownerName + "/" + repoName)
                 .then().statusCode(200).log().all().extract().response();
         Assert.assertEquals(Reusables.getStatusCode(resp), 200);
-        Assert.assertEquals(Reusables.getAttributeBooleanValue(resp,"has_issues"),false);
-
+        Assert.assertEquals(Reusables.getAttributeBooleanValue(resp, "has_issues"), false);
     }
 
     @Test(priority = 3)
     public void deleteAuthenticatedRepo() {
         Response resp = given(setUp()).log().all()
-                .when().delete("repos/Jayanth-H-R/Hello-World")
+                .when().delete("repos/" + ownerName + "/" + repoName)
                 .then().log().all().extract().response();
         Assert.assertEquals(Reusables.getStatusCode(resp), 204);
 

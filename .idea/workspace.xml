@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7eae813-439d-4a99-b03e-e2400d7e96d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ExtentReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/updateRepo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Reports/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Reports/testReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +188,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java</url>
-          <line>68</line>
+          <line>71</line>
           <properties class="com.github.testapis.GithubTestCases" method="deleteAuthenticatedRepo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
