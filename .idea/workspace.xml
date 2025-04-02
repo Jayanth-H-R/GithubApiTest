@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7eae813-439d-4a99-b03e-e2400d7e96d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ExtentReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/updateRepo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -53,6 +60,11 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.GithubTestCases">
     <configuration name="GithubTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BrushUpApi" />
@@ -169,7 +181,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java</url>
-          <line>36</line>
+          <line>38</line>
           <properties class="com.github.testapis.GithubTestCases" method="getAllAuthenticatedRepos">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -178,7 +190,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/github/testapis/GithubTestCases.java</url>
-          <line>66</line>
+          <line>68</line>
           <properties class="com.github.testapis.GithubTestCases" method="deleteAuthenticatedRepo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

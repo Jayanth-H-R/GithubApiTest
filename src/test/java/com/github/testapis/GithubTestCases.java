@@ -12,17 +12,18 @@ import io.restassured.specification.RequestSpecification;
 import org.json.JSONTokener;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utilities.ExtentReports;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+
 
 
 
 import static io.restassured.RestAssured.given;
-
+@Listeners(ExtentReports.class)
 public class GithubTestCases extends BaseClass {
 
 
@@ -53,9 +54,9 @@ public class GithubTestCases extends BaseClass {
 
     @Test(priority = 2)
     public void updateAuthenticatedRepo() {
-        Response resp = given(setUp()).log().all().body("{\n" +
-                        "    \"has_issues\":false,\"has_projects\":true\n" +
-                        "}")
+        File requestBody= new File("./src/main/resources/updateRepo.json");
+
+        Response resp = given(setUp()).log().all().body(requestBody)
                 .when().patch("repos/Jayanth-H-R/Hello-World")
                 .then().statusCode(200).log().all().extract().response();
         Assert.assertEquals(Reusables.getStatusCode(resp), 200);
